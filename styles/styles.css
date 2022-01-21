@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    border: 2px solid yellow;
+    height: 60px;
+}
+
+main {
+    border: 2px solid green;
+}
+
+#header_container {
+    background-color: lime;
+    height: 100%;
+    padding-top: 0px;
+    border: 2px solid black;
+}
+
+.fornavis, .forimg, .forform {
+    display: inline-block;
+}
+
+.forimg {
+    margin: 5px 0px 0px -5px;
+}
+
+.forform {
+    border: 2px solid red;
+    width: 50%;
+    height: 45px;
+    position: absolute;
+    top: 12px;
+    left: 290px;
+}
+
+.forimg a {
+    text-decoration: none;
+    color: black;
+}
+
+.forimg span {
+    letter-spacing: 0.01em;
+    font: 24px youtube-sans-bold, Sans-Serif, Georgia, Arial;
+}
+
+.forimg sup {
+    font: 13px Roboto, Arial, Sans-Serif;
+}
+
+.navis {
+    display: inline-block;
+    margin: 0px 20px 0px 30px;
+    color: black;
+}
+
+.yicon {
+    margin-left: -3px;
+}
+
+.imgspan {
+    margin: 6px -5px -10px 0px;
+}
+
+.search {
+    width: 90%;
+    height: 45px;
+}
+
+form {
+    background: lightgrey;
+}
+
+form input[type=search] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    background: #f1f1f1;
+    float: left;
+}
+
+form button {
+    float: right;
+    width: 10%;
+    height: 45px;
+    color: black;
+    font-size: 17px;
+    border: none;
+    background: lightgrey;
+    cursor: pointer;
+}
+
+div video {
+    width: 60%;
+    height: auto;
+    margin: 30px;
+}
