@@ -5,6 +5,8 @@
         <!-- Load icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     </head>
     <body>
         <header>
@@ -14,28 +16,91 @@
                             <i class="fa fa-bars"></i>
                         </a>
                     </div>
-
+                    
                     <div class="forimg">
-                        <a class="yicon" href="https://www.youtube.com"><img class="imgspan" src="Images/yicon.png" width="35" height="35" />
-                        <span>YouTube<sup>NG</sup></span></a>
+                        <a class="yicon" href="https://www.youtube.com">
+                            <img class="imgspan" src="Images/yicon.png" width="35" height="35" />
+                            <span>YouTube<sup>NG</sup></span>
+                        </a>
                     </div>
-
+                    
                     <div class="forform">
-                        <form>
+                        <form class="header-form">
                             <input class="search" type="search" name="search" value="Search" placeholder="Search" />
                             <span class="scbtn"><button type="submit"><i class="fa fa-search"></i></button></span>
                         </form>
                     </div>
+                    
+                    <div class="microphone">
+                        <div class="fa-mic">
+                            <i class="fa fa-microphone" style="font-size: 20px; color: black;"></i>
+                        </div>
+                    </div>
+
+                    <div class="video-icon-div">
+                        <div class="vid-icon">
+                            <i class="material-icons">video_call</i>
+                        </div>
+                    </div>
+
+                    <div class="ytb-app-div">
+                        <div class="ytb-app-icon">
+                            <i class="material-icons">apps</i>
+                        </div>
+                    </div>
+
+                    <div class="bell-icon-div">
+                        <div class="bell-icon">
+                            <i class="fa fa-bell" style="font-size: 20px;"></i>
+                        </div>
+                    </div>
+
+                    <div class="profile-div">
+                        <div class="profile-pic"></div>
+                    </div>
+                    
                 </div>
         </header>
 
         <main>
-            <section>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AfCyzIbpLN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <section class="vid-section">
+                <div class="iframe-div">
+                    <iframe class="iframes" src="https://www.youtube.com/embed/KqG-FWWjn3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="vid-title">
+                    <h1 class="h1-title">Clarification of Dr Sharaf On the Issue of his daughter's wedding</h1>
+                </div>
+
+                <div class="likes-views-div">
+                    <div class="views-date">
+                        <span class="views">135 views<span class="views-dot">.</span>Jan 29, 2022</span>
+                    </div>
+
+                    <div class="likes-share-save">
+                        <div class="like-div likes">
+                            <i class="fa fa-thumbs-up" style="font-size: 20px;"><span style="font-style: bold; font-family:'Times New Roman', Times, serif"> 5</span></i>
+                        </div>
+                        <div class="like-div dislikes">
+                            <i class="fa fa-thumbs-down" style="font-size: 20px;"><b style=" font-style: bolder; font-size: 15px; font-family: Sans-serif"> Dislike</b></i>
+                        </div>
+                        <div class="like-div share">
+                            <i class="fa fa-share" style="font-size: 20px;"><b style=" font-style: bolder; font-size: 15px; font-family: Sans-serif"> Share</b></i>
+                        </div>
+                        <div class="like-div save"><b style="font-size: 20px;">Save</b></div>
+                        <div class="like-div more">
+                            <i class="fa fa-ellipsis-h" style="font-size: 20px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-line">
+                    <hr>
                 </div>
             </section>
         </main>
+        <aside class="aside-section">
+
+        </aside>
 
     </body>
 </html>
