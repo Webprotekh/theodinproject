@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 body {
@@ -130,8 +131,7 @@ form button {
 }
 
 main {
-    border: 2px solid green;
-    width: 69.5vw;
+    width: 67vw;
     display: inline-block;
 }
 
@@ -200,8 +200,39 @@ main {
 }
 
 .aside-section {
-    border: 2px solid blue;
-    width: 29.5vw;
-    display: inline-block;
+    margin-top: 20px;
+    width: 31vw;
     float: right;
+}
+
+.thumbnail-1 {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.more-vid {
+    width: 40%;
+    background-image: url('../Images/World.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.vid-title {
+    width: 40%;
+    padding: 3px;
+}
+
+.vid-title h2 {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.vid-title p {
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
